@@ -69,25 +69,29 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-
-
-
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile "com.android.support:appcompat-v7:${SUPPORT_LIB_VERSION}"
     compile "com.android.support:design:${SUPPORT_LIB_VERSION}"
     compile "com.android.support:cardview-v7:${SUPPORT_LIB_VERSION}"
     compile "com.android.support:recyclerview-v7:${SUPPORT_LIB_VERSION}"
+
+    dependencies { compile 'org.altbeacon:android-beacon-library:2.9' }
     compile 'com.github.bumptech.glide:glide:3.5.2'
     compile 'com.google.android.gms:play-services-auth:9.2.1'
+    compile 'com.google.android.gms:play-services-location:9.2.1'
+    compile 'com.google.android.gms:play-services-ads:9.2.1'
+    compile 'com.google.protobuf.nano:protobuf-javanano:3.0.0-alpha-5'
     compile 'com.google.firebase:firebase-core:9.2.1'
     compile 'com.google.firebase:firebase-crash:9.2.1'
     compile 'com.google.firebase:firebase-auth:9.2.1'
     compile 'com.google.firebase:firebase-database:9.2.1'
     compile 'com.google.firebase:firebase-storage:9.2.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
     compile 'us.feras.mdv:markdownview:1.1.0'
     testCompile 'junit:junit:4.12'
+    compile project(':beaconinside-sdk-playservices-2.5.0')
 }
+
 
 
 

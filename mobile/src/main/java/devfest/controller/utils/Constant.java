@@ -5,7 +5,11 @@ package devfest.controller.utils;
  */
 public class Constant {
 
+    public static final String BEACONS_TOKEN = "5EoZcTHkxxZ3kK2JH475";
+
     public static final String USER = "USER";
     public static final String NEWS = "blog";
-    public static final String SPEAKERS = "speakers";
+    public static final String SPEAKERS = "collected/speakers";
+    public static final String SESSIONS = "collected/sessions";
+    public static final String SCHEDULED = "collected/schedule";
 }

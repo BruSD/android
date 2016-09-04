@@ -15,8 +15,8 @@ public class FB {
     private static FB fb;
     public FirebaseAuth mAuth;
     private StorageReference storageRef;
-//    public String BASE_URL = "prod/";
-    public String BASE_URL = "dev/";
+    public String BASE_URL = "prod/";
+//    public String BASE_URL = "dev/";
 
 
     public FB() {
@@ -44,10 +44,19 @@ public class FB {
     public DatabaseReference getSpeakersRef() {
         return database.getReference(BASE_URL + Constant.SPEAKERS);
     }
+    public DatabaseReference getSessionsRef() {
+        return database.getReference(BASE_URL + Constant.SESSIONS);
+    }
+
+    public DatabaseReference getScheduleRef() {
+        return database.getReference(BASE_URL + Constant.SCHEDULED);
+    }
 
     public StorageReference getImageRoot(){
         return storageRef;
     }
+
+
 //
 //    public DatabaseReference getTVProgramRef(){
 //        return database.getReference(Constant.PROGRAM);

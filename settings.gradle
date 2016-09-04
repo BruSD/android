@@ -1,1 +1,1 @@
-include ':mobile'
+include ':mobile', ':beaconinside-sdk-playservices-2.5.0'

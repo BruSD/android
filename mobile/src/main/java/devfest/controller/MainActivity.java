@@ -70,7 +70,7 @@ public class MainActivity extends BaseActivity implements
 
         initNavigationView();
 
-        showFragment(NewsFragment.newInstance());
+        showFragment(ScheduleFragment.newInstance());
     }
 
     private void initNavigationView() {
