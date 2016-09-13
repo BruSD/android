@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class Day {
     private String date;
     private String dateReadable;
-    private ArrayList<TimeSlote> timeslots;
-    private ArrayList<String> tracks;
+//    private ArrayList<TimeSlot> timeslots;
+//    private ArrayList<String> tracks;
 
     public Day() {
     }
@@ -31,19 +31,19 @@ public class Day {
         this.dateReadable = dateReadable;
     }
 
-    public ArrayList<TimeSlote> getTimeslots() {
-        return timeslots;
-    }
+//    public ArrayList<TimeSlot> getTimeslots() {
+//        return timeslots;
+//    }
 
-    public void setTimeslots(ArrayList<TimeSlote> timeslots) {
-        this.timeslots = timeslots;
-    }
-
-    public ArrayList<String> getTracks() {
-        return tracks;
-    }
-
-    public void setTracks(ArrayList<String> tracks) {
-        this.tracks = tracks;
-    }
+//    public void setTimeslots(ArrayList<TimeSlot> timeslots) {
+//        this.timeslots = timeslots;
+//    }
+//
+//    public ArrayList<String> getTracks() {
+//        return tracks;
+//    }
+//
+//    public void setTracks(ArrayList<String> tracks) {
+//        this.tracks = tracks;
+//    }
 }
