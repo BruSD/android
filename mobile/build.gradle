@@ -6,7 +6,7 @@ android {
 
 
     productFlavors {
-        DevFestUA2016 {
+        TardisDemo {
             applicationId = "ua.org.gdg.devfest"
             versionCode VERSION_CODE as int
             versionName VERSION_NAME
